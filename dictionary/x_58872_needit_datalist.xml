@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DataList" max_length="40" name="x_58872_needit_datalist" sizeclass="2" type="collection">
+        <element label="DataID" max_length="12" name="dataid" type="integer"/>
+        <element display="true" label="DataName" mandatory="true" max_length="12" name="dataname" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="occasicon" max_length="40" name="x_58872_needit_occasicon" sizeclass="24" type="collection">
+        <element choice="1" label="Data Type" max_length="12" name="data_type" reference="x_58872_needit_datalist" type="reference">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element display="true" label="email address" max_length="120" name="email_address" type="string"/>
+        <element label="Employee Name" max_length="12" name="employee_name" type="string"/>
+        <element label="Migrate/Create Date" max_length="12" name="migrate_create_date" type="glide_date"/>
+        <element label="migration Data Type" max_length="12" name="migration_data_type" type="string"/>
+    </element>
+</database>
