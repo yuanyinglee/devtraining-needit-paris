@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="occasicon" max_length="40" name="x_58872_needit_occasicon" sizeclass="24" type="collection">
+    <element label="occasicon" max_length="40" name="x_58872_needit_occasicon" sizeclass="32" type="collection">
         <element choice="1" label="Data Type" max_length="12" name="data_type" reference="x_58872_needit_datalist" type="reference">
             <choice>
                 <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
